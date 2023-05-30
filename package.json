@@ -1,0 +1,28 @@
+{
+  "name": "email-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruhandb/email-crawler.git"
+  },
+  "author": "Ruhan Borgmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruhandb/email-crawler/issues"
+  },
+  "homepage": "https://github.com/ruhandb/email-crawler#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^20.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "ts-node": "^10.9.1"
+  }
+}
